@@ -1,0 +1,47 @@
+html {
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+}
+
+body {
+  // font-family: 'Montserrat', sans-serif;
+  font-family: "Vollkorn", "Open Sans", sans-serif;
+  text-align: center;
+}
+
+.jumbotron {
+  background-color: transparent !important;
+  color: inherit !important;
+}
+
+#projects {
+  background-color: inherit !important;
+  color: inherit !important;
+}
+
+#about {
+  background-color: inherit !important;
+  // background-image: none !important;
+}
+
+body.light-mode {
+  background-color: #fff;
+  color: #333;
+  transition: background-color 0.3s ease;
+}
+
+body.dark-mode {
+  background-color: #10171d;
+  color: #dfdfdf;
+
+  .navbar {
+    background-color: #1b2938;
+  }
+
+  .dark-mode-toggle > button {
+    color: #999;
+    &:last-child {
+      color: lightblue;
+    }
+  }
+}
