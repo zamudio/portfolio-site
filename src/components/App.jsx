@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from "react";
-import Switch from "./Switch";
-// import DarkModeToggle from "./Toggle/DarkModeToggle";
+import DarkModeToggle from "./Toggle/DarkModeToggle";
 import Hero from "./Hero/Hero";
 import About from "./About/About";
 import Projects from "./Projects/Projects";
@@ -29,8 +28,7 @@ function App() {
   return (
     <PortfolioProvider value={{ hero, about, projects, footer }}>
       {/* contact on [3] above */}
-      <Switch />
-      {/* <DarkModeToggle /> */}
+      <DarkModeToggle />
       <Hero />
       <About />
       <Projects />
