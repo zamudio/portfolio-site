@@ -1,10 +1,10 @@
 import React, { useState, useEffect } from "react";
+import DarkModeToggle from "./Toggle/DarkModeToggle";
 import Hero from "./Hero/Hero";
 import About from "./About/About";
 import Projects from "./Projects/Projects";
 // import Contact from './Contact/Contact';
 import Footer from "./Footer/Footer";
-import DarkModeToggle from "./Toggle/DarkModeToggle";
 
 import { PortfolioProvider } from "../context/context";
 
