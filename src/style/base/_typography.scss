@@ -60,8 +60,13 @@ a:hover {
   }
 }
 
-.rainbow-text {
-  background-image: linear-gradient(180deg, $rainbow-color);
+.text-color-city {
+  background-image: linear-gradient(
+    135deg,
+    $secondary-color 0%,
+    $primary-color 100%
+  );
+  // background-image: linear-gradient(135deg, $rainbow-color);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 
@@ -75,3 +80,19 @@ a:hover {
     transform: translateX(2px);
   }
 }
+
+// .rainbow-text {
+//   background-image: linear-gradient(90deg, $rainbow-color);
+//   -webkit-background-clip: text;
+//   -webkit-text-fill-color: transparent;
+
+//   // Responsive text purple style
+//   @include respond(phone) {
+//     background-image: none;
+//     -webkit-text-fill-color: $secondary-color;
+//   }
+
+//   &:hover {
+//     transform: translateX(2px);
+//   }
+// }

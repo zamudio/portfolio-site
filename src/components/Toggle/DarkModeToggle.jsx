@@ -1,4 +1,5 @@
 import React from "react";
+import Button from "@material-ui/core/Button";
 
 import Toggle from "./Toggle";
 import useDarkMode from "use-dark-mode";
@@ -8,13 +9,13 @@ const DarkModeToggle = () => {
 
   return (
     <div className="dark-mode-toggle">
-      <button type="button" onClick={darkMode.disable}>
+      <Button type="button" variant="contained" onClick={darkMode.disable}>
         ☀
-      </button>
+      </Button>
       <Toggle checked={darkMode.value} onChange={darkMode.toggle} />
-      <button type="button" onClick={darkMode.enable}>
+      <Button type="button" variant="contained" onClick={darkMode.enable}>
         ☾
-      </button>
+      </Button>
     </div>
   );
 };
