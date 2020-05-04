@@ -7,7 +7,7 @@ import PortfolioContext from "../../context/context";
 
 const About = () => {
   const { about } = useContext(PortfolioContext);
-  const { img, paragraphOne, paragraphTwo, paragraphThree, resume } = about;
+  const { img, paragraphOne, paragraphTwo, paragraphThree, email } = about;
 
   const [isDesktop, setIsDesktop] = useState(false);
   const [isMobile, setIsMobile] = useState(false);
@@ -55,13 +55,16 @@ const About = () => {
                   {paragraphThree ||
                     "Lorem ipsum dolor sit, amet consectetur adipisicing elit."}
                 </p>
-                {resume && (
+                {email && (
                   <span className="d-flex mt-3">
                     <a
                       target="_blank"
                       rel="noopener noreferrer"
                       className="cta-btn cta-btn--resume"
-                      href={resume}
+                      href={
+                        // email ? `mailto:${email}` : "https://github.com/zamudio"
+                        email
+                      }
                     >
                       Contact me
                     </a>
