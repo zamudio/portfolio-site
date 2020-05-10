@@ -30,13 +30,20 @@ const Header = () => {
           delay={500}
           distance="30px"
         >
+          {/* Hey there. I'm Zoe Rodriguez , a product design & UX/UI enthusiast living in Los Angeles & working at InStride as a product designer. */}
           <h1 className="hero-title">
-            {title || "Hi, my name is"}{" "}
-            <span className="text-color-main">{name || "Michael Zamudio"}</span>
+            {title || "Hey there. I'm"}{" "}
+            {/* <span className="text-color-main">{name || "Michael Zamudio"}</span> */}
+            <span className="red">{name || "Michael Zamudio"}</span>
+            {","}
             <br />
-            {subtitle || "I'm a Software Developer from"}{" "}
-            <span className="text-color-city">{"Seattle"}</span>
-            {/* {"."} */}
+            {subtitle || "a "}
+            <span className="orange">Software Developer</span>
+            {" && "}
+            <span className="green">UI/UX enthusiast</span>
+            {" living in "}
+            <span className="purple">{"Seattle"}</span>
+            {"."}
           </h1>
         </Fade>
         <Fade

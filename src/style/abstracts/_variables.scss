@@ -12,12 +12,15 @@ $secondary-color: #6f61a1;
 //   yellow 33.3333333333% 50%, green 50% 66.6666666667%,
 //   blue 66.6666666667% 83.3333333333%, purple 83.3333333333%;
 
-// $rainbow-color: red 27%, orange 27% 37%, yellow 37% 47%, green 47% 60%,
-//   blue 60% 72%, purple 72%;
+$dark-rainbow-color: rgb(255, 85, 85), rgb(250, 171, 90), rgb(113, 255, 137),
+  rgb(228, 113, 249);
 
-$rainbow-text: #000;
+$light-rainbow-color: rgb(245, 217, 211), rgb(250, 230, 209), rgb(221, 234, 232),
+  rgb(240, 231, 242);
 
 $white-color: #fff;
+$dark-color: rgb(64, 64, 66);
+// $dark-color: #333;
 
 // $dark-grey: #333333;
 $dark-grey: #10171d;

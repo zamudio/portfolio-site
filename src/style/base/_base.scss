@@ -4,8 +4,9 @@ html {
 }
 
 body {
-  // font-family: 'Montserrat', sans-serif;
-  font-family: "Vollkorn", "Open Sans", sans-serif;
+  font-family: "Raleway", sans-serif;
+  // font-family: "Montserrat", sans-serif;
+  // font-family: "Vollkorn", "Open Sans", sans-serif;
   text-align: center;
 }
 
@@ -19,20 +20,164 @@ body {
   color: inherit !important;
 }
 
-#about {
-  background-color: inherit !important;
-  // background-image: none !important;
-}
-
 body.light-mode {
   background-color: #fff;
-  color: #333;
+  color: $dark-color;
   transition: background-color 0.3s ease;
+
+  // lighter colors for light mode
+  .red {
+    background: rgb(245, 217, 211);
+  }
+  .orange {
+    background: rgb(250, 230, 209);
+  }
+  .yellow {
+    background: rgb(251, 246, 231);
+  }
+  .green {
+    background: rgb(221, 234, 232);
+  }
+  .purple {
+    background: rgb(240, 231, 242);
+  }
+
+  .cta-btn--hero {
+    -webkit-text-fill-color: $dark-color;
+    border: 2px solid $dark-color;
+    border-image-slice: 1;
+    // Responsive Button hero style
+    @include respond(phone) {
+      // background-image: none;
+      border: 2px solid $dark-color;
+      -webkit-text-fill-color: $dark-color;
+    }
+
+    &::after {
+      background-image: linear-gradient(135deg, $light-rainbow-color);
+      // Responsive Button hero style
+      @include respond(phone) {
+        background-image: none;
+      }
+    }
+
+    &:hover {
+      -webkit-text-fill-color: $dark-color;
+      // -webkit-text-fill-color: $rainbow-color;
+      text-decoration: none;
+      // Responsive Button hover hero style
+      @include respond(phone) {
+        // -webkit-text-fill-color: $rainbow-color;
+        -webkit-text-fill-color: $dark-color;
+      }
+
+      &::after {
+        width: 100%;
+      }
+    }
+  }
+
+  .cta-btn--resume {
+    color: $dark-color;
+    border: 2px solid $dark-color;
+
+    &::after {
+      background: linear-gradient(135deg, $light-rainbow-color);
+      color: $dark-color;
+    }
+
+    &:hover {
+      color: $dark-color;
+      text-decoration: none;
+
+      &::after {
+        width: 100%;
+      }
+    }
+  }
 }
 
 body.dark-mode {
   background-color: #10171d;
   color: #dfdfdf;
+
+  // darker colors for dark mode
+  .red {
+    color: rgb(255, 85, 85);
+  }
+  .orange {
+    color: rgb(250, 171, 90);
+  }
+  .green {
+    color: rgb(113, 255, 137);
+  }
+  .purple {
+    color: rgb(228, 113, 249);
+  }
+
+  // #about {
+  //   color: #10171d !important;
+  // }
+
+  // hero button for dark mode
+  .cta-btn--hero {
+    -webkit-text-fill-color: $white-color;
+    border: 2px solid $white-color;
+    border-image-slice: 1;
+    // Responsive Button hero style
+    @include respond(phone) {
+      // background-image: none;
+      border: 2px solid $white-color;
+      -webkit-text-fill-color: $white-color;
+    }
+
+    &::after {
+      background-image: linear-gradient(135deg, $dark-rainbow-color);
+      // Responsive Button hero style
+      @include respond(phone) {
+        // background-image: none;
+        // background-image: linear-gradient(
+        //   135deg,
+        //   $primary-color 0%,
+        //   $secondary-color 100%
+        // );
+      }
+    }
+
+    &:hover {
+      -webkit-text-fill-color: $white-color;
+      // -webkit-text-fill-color: $rainbow-text;
+      text-decoration: none;
+      // Responsive Button hover hero style
+      @include respond(phone) {
+        // -webkit-text-fill-color: $secondary-color;
+        -webkit-text-fill-color: $white-color;
+      }
+
+      &::after {
+        width: 100%;
+      }
+    }
+  }
+
+  .cta-btn--resume {
+    color: $dark-color;
+    border: 2px solid $dark-color;
+
+    &::after {
+      background: linear-gradient(135deg, $dark-rainbow-color);
+      color: $white-color;
+    }
+
+    &:hover {
+      color: $white-color;
+      text-decoration: none;
+
+      &::after {
+        width: 100%;
+      }
+    }
+  }
 
   .navbar {
     background-color: #1b2938;
