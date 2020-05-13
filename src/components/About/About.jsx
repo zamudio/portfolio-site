@@ -42,18 +42,6 @@ const About = () => {
               delay={1000}
               distance="30px"
             >
-              {/* I’m Venezuela-smitten, Columbus-cultured, and Los Angeles-inspired. A dual Venezuelan-U.S. citizen, I moved from Caracas to the U.S. 9 years ago to pursue my passion and purpose for design. While I studied at Columbus College of Art & Design, and currently live in LA, I draw influence from travels all around the world where I’ve endeavored to take in all the art and good food in sight.
-
-In the world of design, digital is what lights my fire, and drives me to wake up every morning. I consider it my greatest passion to transform brand visions into living, breathing digital experiences that delight and inspire. I love to tap into the infinite potential of technology and devise markedly simple, yet beautifully immersive designs. Around the office, I’m especially known for my speedy delivery, creative vision, and attention-to-detail.
-
-My clients normally hire me for:
-
-Brand Identity Design
-Digital Product / Web Design
-UI Experiences
-If you're interested in my work or have a project in mind that you think I’d be a good fit for, let’s talk!
-
-Thanks for stopping by. */}
               <div className="about-wrapper__info">
                 <p className="about-wrapper__info-text">
                   {paragraphOne ||

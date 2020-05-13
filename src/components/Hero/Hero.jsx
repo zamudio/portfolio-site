@@ -30,7 +30,6 @@ const Header = () => {
           delay={500}
           distance="30px"
         >
-          {/* Hey there. I'm Zoe Rodriguez , a product design & UX/UI enthusiast living in Los Angeles & working at InStride as a product designer. */}
           <h1 className="hero-title">
             {title || "Hey there. I'm"}{" "}
             {/* <span className="text-color-main">{name || "Michael Zamudio"}</span> */}
