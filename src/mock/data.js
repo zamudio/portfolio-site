@@ -42,17 +42,6 @@ export const projectsData = [
   {
     id: uuidv1(),
     img: "project2.png",
-    title: "Flight-Tracker-React",
-    info:
-      "An open-source flight tracker built with Typescript, MaterialUI, and using the MapBox and OpenSky APIs.",
-    info2:
-      "This was a collaborative effort and was built to practice open-source work, map APIs, and Typescipt",
-    url: "https://flight-tracker-react.netlify.app/",
-    repo: "https://github.com/zamudio/flight-tracker-react", // if no repo, the button will not show up
-  },
-  {
-    id: uuidv1(),
-    img: "project3.png",
     title: "React-Pokedex",
     info:
       "A Pokedex built with React, Bootstrap and the really cool, and totally free, PokeAPI. The site shows all original 151 Pokemon (yes, I'm including Mew as an OG).",
@@ -60,6 +49,17 @@ export const projectsData = [
       "Each individual Pokemon is clickable and brings you to a Card component listing all their stats.",
     url: "https://pokedex-reacted.netlify.app/",
     repo: "https://github.com/zamudio/react-pokedex", // if no repo, the button will not show up
+  },
+  {
+    id: uuidv1(),
+    img: "project3.png",
+    title: "Flight-Tracker-React",
+    info:
+      "An open-source flight tracker built with Typescript, MaterialUI, and using the MapBox and OpenSky APIs.",
+    info2:
+      "This was a collaborative effort and was built to practice open-source work, map APIs, and Typescipt",
+    url: "https://flight-tracker-react.netlify.app/",
+    repo: "https://github.com/zamudio/flight-tracker-react", // if no repo, the button will not show up
   },
   {
     id: uuidv1(),
