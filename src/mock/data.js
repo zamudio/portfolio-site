@@ -41,12 +41,14 @@ export const projectsData = [
   },
   {
     id: uuidv1(),
-    img: "project.jpg",
-    title: "Untitled Flight Tracker Project",
-    info: "",
-    info2: "",
-    url: "",
-    repo: "", // if no repo, the button will not show up
+    img: "project2.jpg",
+    title: "Flight-Tracker-React",
+    info:
+      "An open-source flight tracker built with Typescript, MaterialUI, and using the MapBox and OpenSky APIs.",
+    info2:
+      "This was a collaborative effort and was built to practice Typescipt",
+    url: "https://flight-tracker-react.netlify.app/",
+    repo: "https://github.com/zamudio/flight-tracker-react", // if no repo, the button will not show up
   },
   {
     id: uuidv1(),
