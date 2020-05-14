@@ -41,7 +41,7 @@ export const projectsData = [
   },
   {
     id: uuidv1(),
-    img: "project2.jpg",
+    img: "project2.png",
     title: "Flight-Tracker-React",
     info:
       "An open-source flight tracker built with Typescript, MaterialUI, and using the MapBox and OpenSky APIs.",
