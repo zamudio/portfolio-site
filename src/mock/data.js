@@ -50,17 +50,17 @@ export const projectsData = [
     url: "https://pokedex-reacted.netlify.app/",
     repo: "https://github.com/zamudio/react-pokedex", // if no repo, the button will not show up
   },
-  {
-    id: uuidv1(),
-    img: "project3.png",
-    title: "Flight-Tracker-React",
-    info:
-      "An open-source flight tracker built with Typescript, MaterialUI, and using the MapBox and OpenSky APIs.",
-    info2:
-      "This was a collaborative effort and was built to practice open-source work, map APIs, and Typescipt",
-    url: "https://flight-tracker-react.netlify.app/",
-    repo: "https://github.com/zamudio/flight-tracker-react", // if no repo, the button will not show up
-  },
+  // {
+  //   id: uuidv1(),
+  //   img: "project3.png",
+  //   title: "Flight-Tracker-React",
+  //   info:
+  //     "An open-source flight tracker built with Typescript, MaterialUI, and using the MapBox and OpenSky APIs.",
+  //   info2:
+  //     "This was a collaborative effort and was built to practice open-source work, map APIs, and Typescipt",
+  //   url: "https://flight-tracker-react.netlify.app/",
+  //   repo: "https://github.com/zamudio/flight-tracker-react", // if no repo, the button will not show up
+  // },
   {
     id: uuidv1(),
     img: "project4.png",

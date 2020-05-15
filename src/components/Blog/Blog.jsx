@@ -6,7 +6,7 @@ import Title from "../Title/Title";
 
 const Blog = () => {
   const { blog } = useContext(PortfolioContext);
-  const { btn, paragraphOne, paragraphTwo, paragraphThree, url } = blog;
+  const { btn, paragraphOne, paragraphTwo, url } = blog; // paragraphThree in [3]
 
   return (
     <section id="blog">
