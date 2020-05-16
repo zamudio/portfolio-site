@@ -2,7 +2,8 @@
 This is my portfolio site that I built to house my projects and be a general landing page for anyone interested about me.
 
 ## Screenshot
-<img src="" alt="screenshot" width="450" height="250" />
+<img src="https://github.com/zamudio/portfolio-site/blob/master/public/project_screenshot_light_mode.png" alt="screenshot" width="450" height="250" />
+<img src="https://github.com/zamudio/portfolio-site/blob/master/public/project_screenshot_dark_mode.png" alt="screenshot" width="450" height="250" />
 
 ## How to use?
 Go [here](https://zamudio.netlify.app/) for a live demo.
