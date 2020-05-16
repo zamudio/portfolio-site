@@ -36,7 +36,7 @@ const Blog = () => {
                 // : "https://github.com/cobidev/react-simplefolio"
               }
             >
-              {btn || "This way..."}
+              {btn || "This way"}
             </a>
           </div>
         </Fade>

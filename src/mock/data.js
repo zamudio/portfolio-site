@@ -50,17 +50,17 @@ export const projectsData = [
     url: "https://pokedex-reacted.netlify.app/",
     repo: "https://github.com/zamudio/react-pokedex", // if no repo, the button will not show up
   },
-  // {
-  //   id: uuidv1(),
-  //   img: "project3.png",
-  //   title: "Flight-Tracker-React",
-  //   info:
-  //     "An open-source flight tracker built with Typescript, MaterialUI, and using the MapBox and OpenSky APIs.",
-  //   info2:
-  //     "This was a collaborative effort and was built to practice open-source work, map APIs, and Typescipt",
-  //   url: "https://flight-tracker-react.netlify.app/",
-  //   repo: "https://github.com/zamudio/flight-tracker-react", // if no repo, the button will not show up
-  // },
+  {
+    id: uuidv1(),
+    img: "project3.png",
+    title: "Facegram",
+    info:
+      "A Ruby on Rails CRUD app that mimics Facebook and Instagram. It allows a user to sign up, log in, make posts, edit profile, and all the standard aspects of a social media app.",
+    info2:
+      "Built solely with Ruby on Rails, Bootstrap, and a SQL DB, to practice building backend apps with authentication.",
+    // url: "https://flight-tracker-react.netlify.app/",
+    repo: "https://github.com/zamudio/facegram", // if no repo, the button will not show up
+  },
   {
     id: uuidv1(),
     img: "project4.png",
@@ -74,12 +74,14 @@ export const projectsData = [
   },
   {
     id: uuidv1(),
-    img: "project.jpg",
-    title: "Untitled Chuck Norris Joke Project",
-    info: "",
-    info2: "",
-    url: "",
-    repo: "", // if no repo, the button will not show up
+    img: "project5.png",
+    title: "Chuck Norris Jokes",
+    info:
+      "Built with React, Bootstrap, and Chuck Norris API, this simple app serves you a joke from the API",
+    info2:
+      "Each time you refresh, or hit the button for a new joke, you recieve a new joke value from the API",
+    url: "https://chuck-norris-jokes-react.netlify.app/",
+    repo: "https://github.com/zamudio/chuck-norris-react", // if no repo, the button will not show up
   },
   {
     id: uuidv1(),
