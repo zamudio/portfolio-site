@@ -11,7 +11,7 @@ const Blog = () => {
   return (
     <section id="blog">
       <Container>
-        <Title title="My Blog" />
+        <Title title="My personal blog" />
         <Fade bottom duration={1000} delay={800} distance="30px">
           <div className="about-wrapper__info">
             <p className="about-wrapper__info-text">

@@ -86,6 +86,16 @@ export const projectsData = [
   {
     id: uuidv1(),
     img: "project6.png",
+    title: "My Blog",
+    info:
+      "Built with Gatsby.js and React, my blog is just a project I made to write articles and hopefully help some beginners the way I was helped.",
+    info2: "Main feature is that it has a dark mode/light mode switch",
+    url: "https://zamudio-blog.netlify.app",
+    repo: "https://github.com/zamudio/blog/", // if no repo, the button will not show up
+  },
+  {
+    id: uuidv1(),
+    img: "project7.png",
     title: "Robodex",
     info:
       "Built with React and Redux, this site shows you a list of your robot friends and lets you use a searchbar for interactive searching.",
