@@ -1,6 +1,10 @@
 ## Portfolio site
 This is my portfolio site that I built to house my projects and be a general landing page for anyone interested about me.
 
+Made with both a light and dark mode.
+
+Full of all my project links, social media, linkedin, a link to my blog, etc.
+
 ## Screenshot
 <img src="https://github.com/zamudio/portfolio-site/blob/master/public/project_screenshot_light_mode.png" alt="screenshot" width="450" height="250" />
 <img src="https://github.com/zamudio/portfolio-site/blob/master/public/project_screenshot_dark_mode.png" alt="screenshot" width="450" height="250" />
@@ -24,13 +28,13 @@ Built with:
 
 ## Features
 - One Page Layout built with React
-- Styled with Bootstrap v4.3 + Custom SCSS
+- Styled with Bootstrap + Custom SCSS
 - Fully Responsive
 - Image optimization with Gatsby
 
 ## Credits
-[Jacobo Martinez](https://github.com/cobidev)\
-[Andrei Neagoie](https://github.com/aneagoie) 
+Jacobo Martinez\
+Andrei Neagoie 
 
 ## License
 MIT © [Michael Zamudio](2020)
