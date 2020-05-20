@@ -126,7 +126,7 @@ export const footerData = {
     {
       id: uuidv1(),
       name: "linkedin",
-      url: "https://www.linkedin.com/in/michael-zamudio-878672197/",
+      url: "https://www.linkedin.com/in/michael-zamudio",
     },
     {
       id: uuidv1(),
