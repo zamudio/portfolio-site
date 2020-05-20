@@ -35,7 +35,7 @@ export const projectsData = [
     img: "project.png",
     title: "SmartBrain-AI",
     info:
-      "A fullstack app built in React, Node.js, Express.js, postgresql. A user can sign up and upload photos to be run through a facial reconigiton machine learning API.",
+      "A fullstack app built with React, Node.js, Express.js, Postgresql, and Tachyons. A user can sign up and upload photos to be run through a facial recognition machine learning API.",
     info2:
       "This app handles authentication, custom routing, and was built to practice making fullstack apps.",
     url: "",
