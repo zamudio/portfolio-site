@@ -7,7 +7,7 @@ import PortfolioContext from "../../context/context";
 
 const About = () => {
   const { about } = useContext(PortfolioContext);
-  const { img, paragraphOne, paragraphTwo, paragraphThree, email } = about;
+  const { img, paragraphOne, paragraphTwo, paragraphThree, resume } = about;
 
   const [isDesktop, setIsDesktop] = useState(false);
   const [isMobile, setIsMobile] = useState(false);
@@ -55,7 +55,19 @@ const About = () => {
                   {paragraphThree ||
                     "Lorem ipsum dolor sit, amet consectetur adipisicing elit."}
                 </p>
-                {email && (
+                {resume && (
+                  <span className="d-flex mt-3">
+                    <a
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="cta-btn cta-btn--resume"
+                      href={resume}
+                    >
+                      Resume
+                    </a>
+                  </span>
+                )}
+                {/* {email && (
                   <span className="d-flex mt-3">
                     <a
                       target="_blank"
@@ -69,7 +81,7 @@ const About = () => {
                       Contact me
                     </a>
                   </span>
-                )}
+                )} */}
               </div>
             </Fade>
           </Col>

@@ -19,13 +19,13 @@ export const heroData = {
 export const aboutData = {
   img: "profile.jpg",
   paragraphOne:
-    "I currently live in Seattle. I've studied at both the University of Minnesota and The Evergreen State College where I primarily studied Political Philosophy, but also took courses in CS. I'm a music and soccer nut, with a love for cinematic classics. I draw influence from my travels and living experiences around the world, where I’ve endeavored to take in all the art and good food in sight. I am always looking for new things to explore, new challenges to be experienced, and new people to meet.",
+    "I currently live in Seattle. I've studied at both the University of Minnesota and The Evergreen State College where I primarily studied Political Philosophy, but also took courses in CS. I'm a music and soccer nut, with a love for cinematic classics. I draw influence from my travels and living experiences around the world. I am always looking for new things to explore, new challenges to experience, and new people to meet.",
   paragraphTwo:
-    "Software development of all kinds is what lights my fire, and drives me to wake up every morning. I consider it my greatest passion to transform visions into living, breathing digital experiences that delight and inspire. I love to tap into the infinite potential of technology and devise markedly simple, yet beautifully immersive projects. I’m especially known for my creative vision and attention-to-detail.",
+    "Software development of all kinds is what lights my fire, and drives me to wake up every morning. I consider it my greatest passion to transform visions into living, breathing digital experiences. I love to tap into the infinite potential of technology and devise markedly simple, yet beautifully immersive projects. I’m known for my creative vision and attention-to-detail.",
   paragraphThree:
     "If you're interested in my work or have a project in mind that you think I’d be a good fit for, let’s talk!",
-  // resume: "#", // if no resume, the button will not show up
-  email: "#",
+  resume: "MichaelZamudioCV.pdf", // if no resume, the button will not show up
+  // email: "MichaelZamudioCV.pdf", // resume
 };
 
 // PROJECTS DATA
