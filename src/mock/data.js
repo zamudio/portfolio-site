@@ -121,7 +121,7 @@ export const footerData = {
     {
       id: uuidv1(),
       name: "instagram",
-      url: "",
+      url: "https://www.instagram.com/michael.zamudio/",
     },
     {
       id: uuidv1(),
