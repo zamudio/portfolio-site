@@ -33,13 +33,13 @@ export const projectsData = [
   {
     id: uuidv1(),
     img: "project.png",
-    title: "SmartBrain-AI",
+    title: "Janus-ai",
     info:
       "A fullstack app built with React, Node.js, Express.js, Postgresql, and Tachyons. A user can sign up and upload photos to be run through a facial recognition machine learning API.",
     info2:
       "This app handles authentication, custom routing, and was built to practice making fullstack apps.",
     url: "",
-    repo: "https://github.com/zamudio/smartbrain-ai", // if no repo, the button will not show up
+    repo: "https://github.com/zamudio/janus-ai", // if no repo, the button will not show up
   },
   {
     id: uuidv1(),
