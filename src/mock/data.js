@@ -19,7 +19,7 @@ export const heroData = {
 export const aboutData = {
   img: "profile.jpg",
   paragraphOne:
-    "I currently live in Seattle. I've studied at both the University of Minnesota and The Evergreen State College where I primarily studied Political Philosophy. I'm a music and soccer nut, with a love for cinematic classics. I draw influence from my travels and living experiences around the world, where I’ve endeavored to take in all the art and good food in sight. I am always looking for new things to explore, new challenges to be experienced, and new people to meet.",
+    "I currently live in Seattle. I've studied at both the University of Minnesota and The Evergreen State College where I primarily studied Political Philosophy, but also took courses in CS. I'm a music and soccer nut, with a love for cinematic classics. I draw influence from my travels and living experiences around the world, where I’ve endeavored to take in all the art and good food in sight. I am always looking for new things to explore, new challenges to be experienced, and new people to meet.",
   paragraphTwo:
     "Software development of all kinds is what lights my fire, and drives me to wake up every morning. I consider it my greatest passion to transform visions into living, breathing digital experiences that delight and inspire. I love to tap into the infinite potential of technology and devise markedly simple, yet beautifully immersive projects. I’m especially known for my creative vision and attention-to-detail.",
   paragraphThree:
@@ -32,12 +32,14 @@ export const aboutData = {
 export const projectsData = [
   {
     id: uuidv1(),
-    img: "project.jpg",
-    title: "Untitled ML Face Recognition Project",
-    info: "",
-    info2: "",
+    img: "project.png",
+    title: "SmartBrain-AI",
+    info:
+      "A fullstack app built in React, Node.js, Express.js, postgresql. A user can sign up and upload photos to be run through a facial reconigiton machine learning API.",
+    info2:
+      "This app handles authentication, custom routing, and was built to practice making fullstack apps.",
     url: "",
-    repo: "", // if no repo, the button will not show up
+    repo: "https://github.com/zamudio/smartbrain-ai", // if no repo, the button will not show up
   },
   {
     id: uuidv1(),
