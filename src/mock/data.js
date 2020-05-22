@@ -37,8 +37,8 @@ export const projectsData = [
     info:
       "A fullstack app built with React, Node.js, Express.js, PostgreSQL, and Tachyons. A user can sign up and upload photos to be run through a facial recognition machine learning API.",
     info2:
-      "This app handles authentication with bcrypt, custom routing, and was built to practice making fullstack apps.",
-    url: "",
+      "This app handles authentication with bcrypt, custom routing, has a relational database built with postgresql.",
+    url: "https://janus-ai.herokuapp.com/",
     repo: "https://github.com/zamudio/janus-ai", // if no repo, the button will not show up
   },
   {
