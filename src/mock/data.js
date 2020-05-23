@@ -19,9 +19,9 @@ export const heroData = {
 export const aboutData = {
   img: "profile.jpg",
   paragraphOne:
-    "I currently live in Seattle. I've studied at both the University of Minnesota and The Evergreen State College where I primarily studied Political Philosophy, but also took courses in CS. I'm a music and soccer nut, with a love for cinematic classics. I draw influence from my travels and living experiences around the world. I am always looking for new things to explore, new challenges to experience, and new people to meet.",
+    "I currently live in Seattle. I've studied at both the University of Minnesota and The Evergreen State College, where I primarily studied Political Philosophy, but also took courses in CS. I'm really big fan of music, soccer, and cinematic classics. I draw influence from all my travels and living experiences around the world. I am always looking for new things to explore, new challenges to experience, and new people to meet.",
   paragraphTwo:
-    "Software development of all kinds is what lights my fire and drives me to wake up every morning. I consider it my greatest passion to transform visions into living, breathing digital experiences. I love to tap into the potential of technology and devise markedly simple, yet beautifully immersive projects. I’m known for my creative vision and attention-to-detail.",
+    "Software development of all kinds is what lights my fire. I love to tap into the potential of technology and devise markedly simple, yet beautifully immersive projects. I’m known for my creative vision and attention-to-detail.",
   paragraphThree:
     "If you're interested in my work or have a project in mind that you think I’d be a good fit for, let’s talk!",
   resume: "MichaelZamudioCV.pdf", // if no resume, the button will not show up
@@ -60,7 +60,7 @@ export const projectsData = [
       "A Ruby on Rails CRUD app that mimics Facebook and Instagram. It allows a user to sign up, log in, make posts, edit profile, and all the standard aspects of a social media app.",
     info2:
       "Built solely with Ruby on Rails, Bootstrap, and a SQL DB, to practice building backend apps with authentication.",
-    // url: "https://flight-tracker-react.netlify.app/",
+    // url: "",
     repo: "https://github.com/zamudio/facegram", // if no repo, the button will not show up
   },
   {
@@ -102,7 +102,7 @@ export const projectsData = [
     info:
       "Built with React and Redux, this site shows you a list of your robot friends and lets you use a searchbar for interactive searching.",
     info2:
-      "Pulls in images and user data from APIs, this was practice for Redux and Async JS.",
+      "Pulls in images and user data from APIs, this was practice with using Redux and async javascript.",
     url: "https://zamudio.github.io/robodex/",
     repo: "https://github.com/zamudio/robodex", // if no repo, the button will not show up
   },
@@ -118,11 +118,6 @@ export const blogData = {
 // FOOTER DATA
 export const footerData = {
   networks: [
-    {
-      id: uuidv1(),
-      name: "instagram",
-      url: "https://www.instagram.com/michael.zamudio/",
-    },
     {
       id: uuidv1(),
       name: "linkedin",
