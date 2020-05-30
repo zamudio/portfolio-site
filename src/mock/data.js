@@ -92,7 +92,7 @@ export const projectsData = [
     info:
       "Built with Gatsby.js and React, my blog is just a project I made to write articles and hopefully help some beginners the way I was helped.",
     info2: "Main feature is that it has a dark mode/light mode switch",
-    url: "https://zamudio-blog.netlify.app",
+    url: "https://zamudioblog.com",
     repo: "https://github.com/zamudio/blog/", // if no repo, the button will not show up
   },
   {
@@ -112,7 +112,7 @@ export const projectsData = [
 export const blogData = {
   cta: "",
   btn: "",
-  url: "https://zamudio-blog.netlify.app",
+  url: "https://zamudioblog.com",
 };
 
 // FOOTER DATA
