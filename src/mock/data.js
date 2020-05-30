@@ -19,9 +19,9 @@ export const heroData = {
 export const aboutData = {
   img: "profile.jpg",
   paragraphOne:
-    "I currently live in Seattle. I've studied at both the University of Minnesota and The Evergreen State College, where I primarily studied Political Philosophy, but also took courses in CS. I'm really big fan of music, soccer, and cinematic classics. I draw influence from all my travels and living experiences around the world. I am always looking for new things to explore, new challenges to experience, and new people to meet.",
+    "I currently live in Seattle. I've studied at both the University of Minnesota and The Evergreen State College, where I primarily studied Political Philosophy, but also took courses in CS. I'm really big fan of music, soccer, and cinematic classics. I am always looking for new things to explore, new challenges to experience, and new people to meet.",
   paragraphTwo:
-    "Software development of all kinds is what lights my fire. I love to tap into the potential of technology and devise markedly simple, yet beautifully immersive projects. I’m known for my creative vision and attention-to-detail.",
+    "Software development of all kinds is what lights my fire. I love to tap into the potential of technology and devise markedly simple, yet beautifully immersive projects. I draw influence from all my travels and living experiences around the world. I’m known for my creative vision and attention-to-detail.",
   paragraphThree:
     "If you're interested in my work or have a project in mind that you think I’d be a good fit for, let’s talk!",
   resume: "MichaelZamudioCV.pdf", // if no resume, the button will not show up
