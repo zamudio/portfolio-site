@@ -11,7 +11,7 @@ Full of all my project links, social media, linkedin, a link to my blog, etc.
 <img src="https://github.com/zamudio/portfolio-site/blob/master/public/project_screenshot_dark_mode.png" alt="screenshot" width="450" height="250" />
 
 ## How to use?
-Go [here](https://zamudio.netlify.app/) for a live demo.
+Go [here](https://zamudio.app) for a live demo.
 
 ## Tech/framework used
 Built with:
@@ -32,4 +32,4 @@ Jacobo Martinez\
 Andrei Neagoie 
 
 ## License
-MIT © [Michael Zamudio](2020)
+MIT © Michael Zamudio
