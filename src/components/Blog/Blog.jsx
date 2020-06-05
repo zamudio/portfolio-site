@@ -6,7 +6,7 @@ import Title from "../Title/Title";
 
 const Blog = () => {
   const { blog } = useContext(PortfolioContext);
-  const { btn, paragraphOne, paragraphTwo, paragraphThree, url } = blog; // paragraphThree in [3]
+  const { btn, paragraphOne, url } = blog; // paragraphTwo in [2] paragraphThree in [3]
 
   return (
     <section id="blog">
@@ -16,22 +16,22 @@ const Blog = () => {
           <div className="about-wrapper__info">
             <p className="about-wrapper__info-text">
               {paragraphOne ||
-                "Check out my blog where I mostly write about tech."}
+                "Check out my blog where I mostly write about tech. I've been helped countless times by blogs written by other developers. This is my way of giving back."}
             </p>
-            <p className="about-wrapper__info-text">
+            {/* <p className="about-wrapper__info-text">
               {paragraphTwo ||
-                "I think programming is a discipline of constant learning and I've been helped countless times by blogs written by other developers."}
+                "I've been helped countless times by blogs written by other developers. This is my way of giving back."}
             </p>
             <p className="about-wrapper__info-text">
               {paragraphThree || "This is my way of giving back."}
-            </p>
+            </p> */}
             <a
               target="_blank"
               rel="noopener noreferrer"
               className="cta-btn cta-btn--resume"
               href={url}
             >
-              {btn || "This way"}
+              {btn || "Blog"}
             </a>
           </div>
         </Fade>
