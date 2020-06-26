@@ -24,7 +24,7 @@ export const aboutData = {
     "If you're interested in my work or have a project in mind that you think I’d be a good fit for, let’s talk!",
   // paragraphThree:
   //   "If you're interested in my work or have a project in mind that you think I’d be a good fit for, let’s talk!",
-  resume: "MichaelZamudioCV.pdf", // if no resume, the button will not show up
+  resume: "../images/MichaelZamudioResume.pdf", // if no resume, the button will not show up
   // email: "#",
 };
 
